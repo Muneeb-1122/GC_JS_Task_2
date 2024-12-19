@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+html, Body {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)1s;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #ffffffc1;
+    cursor: pointer;
+    transition: all cubic-bezier(0.23, 1, 0.320, 1) linear step-start;
+    scale: 1;
+    font-size: 4em;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)0.3s;
+}
